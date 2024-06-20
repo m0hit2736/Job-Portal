@@ -23,6 +23,7 @@ public class JobRecruiterServiceImpl implements JobRecruiterService {
 		//creating a object of jobrecruiterDto 
 		JobRecruiterDto dto = new JobRecruiterDto();
 		//getting a data from database and setting into dto which we create a new variable
+		
 		dto.setPhoneNumber(recruiter.getPhoneNumber());
 		dto.setAboutMe(recruiter.getAboutMe());
 		dto.setJobRecruiterId(recruiter.getJobRecruiterId());
