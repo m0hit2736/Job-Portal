@@ -14,6 +14,7 @@ public class UserServiceImpl implements UserService {
 
 	public Users addUser(Users user) {
 		user.setRole("user");
+		
 		return dao.save(user);
 	}
 
